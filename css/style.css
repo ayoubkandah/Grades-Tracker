@@ -1,0 +1,93 @@
+/* @font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+ } */
+ 
+
+ /* @font-face {
+    font-family: Reboto;
+    src: url(Roboto-Black.ttf);
+
+ } */
+ body{
+     color: white;
+     font-family:"Open Sans"
+ }
+.container{
+    
+    transform:translateY(60px);
+display: grid;
+
+grid-template-columns: 30% 60%;
+gap: 10%;
+
+}
+
+table{
+transform: translateX(50px);
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+td{
+    background-color: rgb(88, 85, 85);
+    border: 2px solid white;
+    color: white;
+}
+
+ form{
+transform: translateX(90px);
+} 
+
+
+#formDiv{
+
+    height: 180px;
+width: 80%;
+transform:translateX(150px);
+
+    background-color: rgba(0, 0, 255, 0.486);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+#tableDiv{
+    width: 60%;
+    transform:translateX(150px);
+        background-color: rgba(0, 0, 255, 0.486);
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+}
+header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+color: white;
+text-align: center;
+font-size:150% ;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+
+transform: translatex(100px);
+}
+#image{
+    background-image: url("../../school.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
